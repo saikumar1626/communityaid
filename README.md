@@ -1,74 +1,88 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🤝 CommunityAid
+### AI-Powered Smart Resource Allocation System
+**Google GDSC Solution Challenge 2026**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://communityaid-265cc.web.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/saikumar1626/communityaid)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚨 Problem
+Community organizations struggle to efficiently match volunteers to urgent needs. Critical situations like floods, food shortages, and medical emergencies go unaddressed due to poor coordination between NGOs and available volunteers. What should take minutes takes hours — and people suffer.
 
-### `npm start`
+## ✅ Solution
+CommunityAid is a multi-agent AI system built with **Google ADK** that automatically analyses community needs, scores urgency, and matches the right volunteers in real time — powered by **Gemini 2.0 Flash**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🤖 Multi-Agent Architecture
+Coordinator Agent (Root)
+├── 📋 Needs Analyst Agent   → Scores urgency 1-10, categorises need
+├── 🤝 Volunteer Matcher Agent → Matches by skill + location
+└── 📊 Report Agent          → Generates impact statistics
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
+- 🎯 AI urgency scoring (1-10) using Gemini 2.0 Flash
+- 🤝 Automatic volunteer matching by skill + location
+- 📊 Real-time dashboard with live stats
+- 🤖 Agent pipeline visualization
+- 👥 Volunteer registry with availability tracking
+- 🌐 Multi-category: food, medical, shelter, education
+- ☁️ Deployed on Firebase Hosting
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Technology | Purpose |
+|---|---|
+| Google ADK | Multi-agent orchestration |
+| Gemini 2.0 Flash | AI brain for all agents |
+| React.js | Frontend dashboard |
+| Python | ADK backend runtime |
+| Firebase Hosting | Cloud deployment |
+| Firebase Firestore | Real-time database |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🌱 SDG Alignment
+- **SDG 1** — No Poverty
+- **SDG 10** — Reduced Inequalities  
+- **SDG 17** — Partnerships for the Goals
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Quick Start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Backend (Google ADK)
+cd communityaid
+pip install google-adk
+adk web .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Frontend (React)
+npm install
+npm start
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 Links
+- 🌐 **Live App:** https://communityaid-265cc.web.app
+- 💻 **GitHub:** https://github.com/saikumar1626/communityaid
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 👥 Team
+| Name | Role |
+|---|---|
+| PAVAN SUBRAMANYAM SAI KUMAR DANGETI | Team Leader |
+| POTHULA MUKESH BHARAT SIVA KUMAR | Member |
+| SANA S V D S SUBRAHMANYA SWAMY | Member |
+| GONABOYINA SATYA NARAYANA HARISH | Member |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# communityaid
->>>>>>> 8753365c0dcf19fccec1e63db19bef46bfc59b06
+*Built with ❤️ for GDSC Solution Challenge 2026 — Kakinada, Andhra Pradesh*

@@ -9,11 +9,11 @@
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-communityaid.web.app-orange?style=for-the-badge)](https://communityaid-265cc.web.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/saikumar1626/communityaid)
 
-![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_2.0_Flash-8E44AD?style=flat-square&logo=google&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Google ADK](https://img.shields.io/badge/Google%20ADK-4285F4?style=flat-square&logo=google&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini%202.0%20Flash-886FBF?style=flat-square&logo=googlegemini&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
 
 > A multi-agent AI system that automatically analyses community needs, scores urgency, and matches the right volunteers in real time — powered by Gemini 2.0 Flash.
 
